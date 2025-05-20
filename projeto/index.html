@@ -1,53 +1,63 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hamburgueria2G</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hamburgueria2G</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body>   
 
-<header>
+<script src="script.js"></script>
+
+  <a href="clientes.html" id="carrinho">🛒</a>
+
+  <header>
     <h1>🍔 Hamburgueria 2G </h1>
-</header>
+  </header>
 
-<nav>
-    <a href="#">Home</a></li>
-    <a href="#">Sobre</a></li>
-    <a href="#">Contato</a></li>
-</nav>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Sobre</a>
+    <a href="#">Contato</a>
+  </nav>
 
-<main>
+  <main>
     <div class="photo">
-        <img src="./img/opção.01.jpg" alt="Hamburguer 1">
-        <p>Hambúrguer clássico com alface, tomate e molho especial.</p>
+      <img src="./img/opção.01.jpg" alt="Hamburguer 1">
+      <p>Hambúrguer clássico com alface, tomate e molho especial.</p>
+      <button onclick="adicionarAoCarrinho('Hambúrguer Clássico')">Adicionar 🛒</button>
     </div>
     <div class="photo">
-        <img src="./img/opção.02.jpg" alt="Hamburguer 2">
-        <p>Cheeseburger artesanal com cheddar e cebola caramelizada.</p>
+      <img src="./img/opção.02.jpg" alt="Hamburguer 2">
+      <p>Cheeseburger artesanal com cheddar e cebola caramelizada.</p>
+      <button onclick="adicionarAoCarrinho('Cheeseburger Artesanal')">Adicionar 🛒</button>
     </div>
     <div class="photo">
-        <img src="./img/opção.03.jpg" alt="Hamburguer 3">
-        <p>Combo especial: hambúrguer e batata frita.</p>
+      <img src="./img/opção.03.jpg" alt="Hamburguer 3">
+      <p>Combo especial: hambúrguer e batata frita.</p>
+      <button onclick="adicionarAoCarrinho('Combo Especial')">Adicionar 🛒</button>
     </div>
     <div class="photo">
-        <img src="./img/opção.04.jpg" alt="Batata 1">
-        <p>Porção de batatas fritas crocantes e douradas.</p>
+      <img src="./img/opção.04.jpg" alt="Batata 1">
+      <p>Porção de batatas fritas crocantes e douradas.</p>
+      <button onclick="adicionarAoCarrinho('Batata Frita Crocante')">Adicionar 🛒</button>
     </div>
     <div class="photo">
-        <img src="./img/opção.05.jpg" alt="Batata 2">
-        <p>Porção de batatas fritas KIDS.</p>
+      <img src="./img/opção.05.jpg" alt="Batata 2">
+      <p>Porção de batatas fritas KIDS.</p>
+      <button onclick="adicionarAoCarrinho('Batata Frita Kids')">Adicionar 🛒</button>
     </div>
     <div class="photo">
-        <img src="./img/opção.06.jpg" alt="Molho Extra">
-        <p>Molho especial para acompanhar seus lanches.</p>
+      <img src="./img/opção.06.jpg" alt="Molho Extra">
+      <p>Molho especial para acompanhar seus lanches.</p>
+      <button onclick="adicionarAoCarrinho('Molho Especial')">Adicionar 🛒</button>
     </div>
-</main>
+  </main>
 
-    <footer>
-        <p>&copy; 2025 - Todos os direitos reservados</p>
-    </footer>
+  <footer>
+    <p>&copy; 2025 - Todos os direitos reservados</p>
+  </footer>
 
 </body>
 </html>
